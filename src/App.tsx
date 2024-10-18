@@ -1,9 +1,15 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import './App.css';
 import { styled, createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 import LoadingScreen from './components/commons/loading-screen';
+import ProtectedRoute from './components/commons/protected-route';
+import Layout from './components/commons/layout';
+import Home from './routes/home';
+import CreateAccount from './routes/create-account';
+import Login from './routes/login';
+import ResetPassword from './routes/reset-password';
+import Profile from './routes/profile';
 
 // styled components
 const Wrapper = styled.div`
