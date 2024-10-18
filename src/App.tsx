@@ -21,7 +21,7 @@ const Wrapper = styled.div`
 const GlobalStyles = createGlobalStyle`
 ${reset};
 * {
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 body {
   background-color: #f0f0f0;
